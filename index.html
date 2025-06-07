@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="icon" href="gooogle.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="mail">
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Gmail</a>
+        <a href="https://www.google.com/apps" target="_blank" title="Google Apps" style="margin-left:12px;">
+            <img src="https://www.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" alt="Google Apps" width="22" style="vertical-align:middle;">
+        </a>
+    </div>
+    <div class="logo">
+        <img src="googlelogo_color_272x92dp.png" alt="Google logo">
+    </div>
+    <form class="search-bar" action="https://www.google.com/search" method="GET" role="search" aria-label="Google Search">
+        <input type="text" name="q" placeholder="Search Google or type a URL" aria-label="Search">
+        <button type="submit" aria-label="Search">
+            <img src="https://www.svgrepo.com/show/13691/search.svg" alt="Search" width="20">
+        </button>
+    </form>
+    <div class="buttons">
+        <button onclick="document.querySelector('.search-bar').submit()">Google Search</button>
+        <button onclick="window.location.href='https://www.google.com/doodles'">I'm Feeling Lucky</button>
+    </div>
+    <div class="languages">
+        <p>Google offered in: 
+            <a href="https://hi.wikipedia.org/wiki/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80">हिन्दी</a>
+            <a href="https://en.wikipedia.org/wiki/Tamil_language">தமிழ்</a>
+            <a href="https://en.wikipedia.org/wiki/Bengali_language">বাংলা</a>
+            <a href="https://en.wikipedia.org/wiki/Marathi_language">मराठी</a>
+        </p>
+    </div>
+    <footer style="position:fixed;bottom:0;width:100%;text-align:center;color:#888;font-size:13px;background:rgba(255,255,255,0.8);padding:8px 0;">
+        &copy; 2025 Google Clone by You
+    </footer>
+</body>
+</html>
